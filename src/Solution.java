@@ -21,6 +21,7 @@ public class Solution {
             }
             else {print(step);
             playerNumber = 1;
+                System.out.println("Player steps solutıon");
         }
     }
 }
