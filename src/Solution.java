@@ -10,6 +10,7 @@ public class Solution {
         doStep(2,"step3");
         doStep(2,"step4");
         doStep(1,"step5");
+
     }
 
     private static void doStep(int playerNumberLocal, String step) {
