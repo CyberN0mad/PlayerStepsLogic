@@ -1,3 +1,5 @@
+package other;
+
 public class Solution {
 
     private static int playerNumber = 1;

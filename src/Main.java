@@ -1,9 +1,8 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 
 
-    public class Bot {
+    public class Main {
 
     private static final String[] COMMANDS = new String[]{
             "/help", "/start", "/end", "/getLocation"
@@ -12,7 +11,7 @@ import java.util.Scanner;
             "", "Bot started!...", "Bot ended", "location is Moscow"
     };
 
-    public static void bot(String[] args){
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
         String commands = "commands available for this bot \n";
